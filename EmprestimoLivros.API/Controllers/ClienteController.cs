@@ -12,6 +12,7 @@ namespace EmprestimoLivros.API.Controllers
     public class ClienteController : Controller
     {
         private readonly IClienteRepository _clienteRepository;
+
         private readonly IMapper _mapper;
         public ClienteController(IClienteRepository clienteRepository, IMapper mapper)
         {
@@ -22,23 +23,38 @@ namespace EmprestimoLivros.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cliente>>> SelecionarTodosClientes()
         {
-            return Ok(await _clienteRepository.SelecionarTodosAsync());
+            var clientes = await _clienteRepository.SelecionarTodosAsync();
+
+            var clientesDTO = _mapper.Map<IEnumerable<ClienteDTO>>(clientes);
+            return Ok( clientesDTO);
 
         }
 
 
         [HttpPost]
-        public async Task<ActionResult> CadastrarCliente(Cliente cliente)
+        public async Task<ActionResult> CadastrarCliente(ClienteDTO cliente)
         {
-
-            _clienteRepository.Incluir(cliente);
+            var clienteDTO = _mapper.Map<Cliente>(cliente);
+            _clienteRepository.Incluir(clienteDTO);
             if (await _clienteRepository.SaveAllAsync()) return Ok("Cliente cadastrado com sucsso!");
             else return BadRequest("Ocorreu algum erro ao salvar CLiente!");
         }
         [HttpPut]
-        public async Task<ActionResult> AlterarCLiente(Cliente cliente)
+        public async Task<ActionResult> AlterarCLiente(ClienteDTO cliente)
         {
-            _clienteRepository.Alterar(cliente);
+            if(cliente.Id == 0)
+            {
+                return BadRequest("Cliente não encontrado, informe o ID");
+                
+            }
+            var clienteInexistente = await _clienteRepository.SelecionarByIdAsync(cliente.Id);
+            if(clienteInexistente == null)
+            {
+                return BadRequest("Cliente não encontrado");
+            }
+
+            var clienteDTO = _mapper.Map<Cliente>(cliente);
+            _clienteRepository.Alterar(clienteDTO);
             if (await _clienteRepository.SaveAllAsync()) return Ok("Cliente alterado com sucesso!");
             else return BadRequest("Ocorreu algum erro ao alterar Cliente!");
         }

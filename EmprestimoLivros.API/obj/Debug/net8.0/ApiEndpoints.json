@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "cliente",
-        "Type": "EmprestimoLivros.API.Models.Cliente",
+        "Type": "EmprestimoLivros.API.DTOs.ClienteDTO",
         "IsRequired": true
       }
     ],
@@ -45,7 +45,7 @@
     "Parameters": [
       {
         "Name": "cliente",
-        "Type": "EmprestimoLivros.API.Models.Cliente",
+        "Type": "EmprestimoLivros.API.DTOs.ClienteDTO",
         "IsRequired": true
       }
     ],

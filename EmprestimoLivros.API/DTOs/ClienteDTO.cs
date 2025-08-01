@@ -11,7 +11,7 @@ namespace EmprestimoLivros.API.DTOs
 
         [Required]
         [StringLength(25)]
-        [MinLength(14)]
+        [MinLength(14,ErrorMessage = "O BI deve ter no mínimo 14 caracteres")]
         public string Bi { get; set; }
 
         [Required]
