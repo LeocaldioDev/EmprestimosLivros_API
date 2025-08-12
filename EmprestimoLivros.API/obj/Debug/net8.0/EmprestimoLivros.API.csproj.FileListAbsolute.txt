@@ -79,3 +79,11 @@ C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\runtimes\win\
 C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\obj\Debug\net8.0\EmprestimoLivros.API.sourcelink.json
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Application.dll
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Domain.dll
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Infra.Data.dll
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Infra.IOC.dll
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Infra.IOC.pdb
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Application.pdb
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Domain.pdb
+C:\Users\hp\EmprestimoLivros\EmprestimoLivros.API\bin\Debug\net8.0\EmprestimoLivros.Infra.Data.pdb

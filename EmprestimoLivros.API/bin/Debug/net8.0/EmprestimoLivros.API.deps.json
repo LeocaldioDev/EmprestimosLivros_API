@@ -9,6 +9,7 @@
       "EmprestimoLivros.API/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "EmprestimoLivros.Infra.IOC": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -619,6 +620,49 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "EmprestimoLivros.Application/1.0.0": {
+        "dependencies": {
+          "EmprestimoLivros.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EmprestimoLivros.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EmprestimoLivros.Domain/1.0.0": {
+        "runtime": {
+          "EmprestimoLivros.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EmprestimoLivros.Infra.Data/1.0.0": {
+        "dependencies": {
+          "EmprestimoLivros.Application": "1.0.0"
+        },
+        "runtime": {
+          "EmprestimoLivros.Infra.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EmprestimoLivros.Infra.IOC/1.0.0": {
+        "dependencies": {
+          "EmprestimoLivros.Application": "1.0.0",
+          "EmprestimoLivros.Domain": "1.0.0",
+          "EmprestimoLivros.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "EmprestimoLivros.Infra.IOC.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1068,6 +1112,26 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "EmprestimoLivros.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmprestimoLivros.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmprestimoLivros.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmprestimoLivros.Infra.IOC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

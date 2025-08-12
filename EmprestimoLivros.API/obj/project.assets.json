@@ -1129,7 +1129,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "EmprestimoLivros.Application": "1.0.0"
+          "EmprestimoLivros.Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12"
         },
         "compile": {
           "bin/placeholder/EmprestimoLivros.Infra.Data.dll": {}
