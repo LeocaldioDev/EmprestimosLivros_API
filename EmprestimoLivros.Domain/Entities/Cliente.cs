@@ -19,6 +19,7 @@ namespace EmprestimoLivros.Domain.Entities
        public string numero { get; private set; }
        public string telefone { get; private set; } 
        public string telefoneFixo { get; private set; }
+        public ICollection<LivroCLienteEmprestimo> Emprestimos { get; set; }
 
         public Cliente(int id, string bi, string nome, string endereco, string cidade,
             string bairro, string numero, string telefone, string telefoneFixo)

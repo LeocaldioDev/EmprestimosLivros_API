@@ -15,6 +15,8 @@ namespace EmprestimoLivros.Domain.Entities
         public DateTime dataEmprestimo { get; private set; }
         public DateTime dataDevolucao { get; private set; }
         public bool entregue { get; private set; }
+        public Cliente Cliente { get; set; }
+        public Livro Livro { get; set; }
 
 
         public LivroCLienteEmprestimo(int id, int livroId, int clienteId, DateTime dataEmprestimo, DateTime dataDevolucao, bool entregue)

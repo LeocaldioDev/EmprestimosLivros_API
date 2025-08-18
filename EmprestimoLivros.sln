@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprestimoLivros.API", "EmprestimoLivros.API\EmprestimoLivros.API.csproj", "{C4FB8BDE-83E2-4BA7-9ECA-04F07DB6B652}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprestimoLivros.Domain", "EmprestimoLivros.Domain\EmprestimoLivros.Domain.csproj", "{C45688FB-0A59-46BF-95BB-22AE93804E68}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprestimoLivros.Infra.Data", "EmprestimoLivros.Infra.Data\EmprestimoLivros.Infra.Data.csproj", "{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}"
@@ -13,16 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprestimoLivros.Infra.IOC"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmprestimoLivros.Application", "EmprestimoLivros.Application\EmprestimoLivros.Application.csproj", "{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmprestimoLivros.API", "EmprestimoLivros.API\EmprestimoLivros.API.csproj", "{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4FB8BDE-83E2-4BA7-9ECA-04F07DB6B652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4FB8BDE-83E2-4BA7-9ECA-04F07DB6B652}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4FB8BDE-83E2-4BA7-9ECA-04F07DB6B652}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4FB8BDE-83E2-4BA7-9ECA-04F07DB6B652}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C45688FB-0A59-46BF-95BB-22AE93804E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C45688FB-0A59-46BF-95BB-22AE93804E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C45688FB-0A59-46BF-95BB-22AE93804E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
