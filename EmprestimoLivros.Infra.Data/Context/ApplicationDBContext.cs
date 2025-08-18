@@ -10,7 +10,7 @@ namespace EmprestimoLivros.Infra.Data.Context
 {
     public class ApplicationDBContext : DbContext
     {
-        private ApplicationDBContext(DbContextOptions options) : base(options)
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
         {
 
         }
