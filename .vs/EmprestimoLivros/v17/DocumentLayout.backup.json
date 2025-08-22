@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\EmprestimoLivros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|solutionrelative:emprestimolivros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F93829C7-499B-4411-ABCD-ED64C823E8EA}|EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.infra.ioc\\dependencyinjectionswagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F93829C7-499B-4411-ABCD-ED64C823E8EA}|EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj|solutionrelative:emprestimolivros.infra.ioc\\dependencyinjectionswagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|solutionrelative:emprestimolivros.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F93829C7-499B-4411-ABCD-ED64C823E8EA}|EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F93829C7-499B-4411-ABCD-ED64C823E8EA}|EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj|solutionrelative:emprestimolivros.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.infra.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|solutionrelative:emprestimolivros.infra.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.application\\mappings\\domaintodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|solutionrelative:emprestimolivros.application\\mappings\\domaintodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.infra.data\\entitiesconfiguration\\livroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|solutionrelative:emprestimolivros.infra.data\\entitiesconfiguration\\livroconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.infra.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4DE6F-7511-4D51-9A8A-5318B48B0776}|EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj|solutionrelative:emprestimolivros.infra.data\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C45688FB-0A59-46BF-95BB-22AE93804E68}|EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.domain\\entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C45688FB-0A59-46BF-95BB-22AE93804E68}|EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj|solutionrelative:emprestimolivros.domain\\entities\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.application\\services\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|solutionrelative:emprestimolivros.application\\services\\clienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.application\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|solutionrelative:emprestimolivros.application\\interfaces\\iclienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|c:\\users\\hp\\emprestimolivros\\emprestimolivros.application\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FF31B17-A8EF-4EF9-A535-B905BD82CA9A}|EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj|solutionrelative:emprestimolivros.application\\dtos\\clientedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\Program.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.API\\Program.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\Program.cs*",
-              "RelativeToolTip": "EmprestimoLivros.API\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:07:15.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependencyInjectionSwagger.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\DependencyInjectionSwagger.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Infra.IOC\\DependencyInjectionSwagger.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\DependencyInjectionSwagger.cs",
-              "RelativeToolTip": "EmprestimoLivros.Infra.IOC\\DependencyInjectionSwagger.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwA4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T15:40:59.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Infra.IOC\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\DependencyInjection.cs",
               "RelativeToolTip": "EmprestimoLivros.Infra.IOC\\DependencyInjection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAADgzMzMzMwmwBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T15:53:19.9Z",
+              "WhenOpened": "2025-08-20T20:44:14.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "EmprestimoLivros.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:25:24.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\Context\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Context\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\Context\\ApplicationDBContext.cs",
-              "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Context\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T13:46:40.307Z",
+              "WhenOpened": "2025-08-20T19:44:48.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LivroConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EntitiesConfiguration\\LivroConfiguration.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\EntitiesConfiguration\\LivroConfiguration.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EntitiesConfiguration\\LivroConfiguration.cs",
-              "RelativeToolTip": "EmprestimoLivros.Infra.Data\\EntitiesConfiguration\\LivroConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "ClienteServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Services\\ClienteServices.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\ClienteServices.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Services\\ClienteServices.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\Services\\ClienteServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T15:23:18.517Z",
+              "WhenOpened": "2025-08-20T19:15:50.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DomainToDTOMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:38:12.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Livro.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\Entities\\Livro.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Domain\\Entities\\Livro.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\Entities\\Livro.cs",
-              "RelativeToolTip": "EmprestimoLivros.Domain\\Entities\\Livro.cs",
-              "ViewState": "AgIAAAQAAAAAnZmZmZnpvxEAAAAzAAAAAAAAAA==",
+              "Title": "ICLienteServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T13:14:05.166Z",
+              "WhenOpened": "2025-08-20T18:47:53.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\DTOs\\ClienteDTOs.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\DTOs\\ClienteDTOs.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\DTOs\\ClienteDTOs.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\DTOs\\ClienteDTOs.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:33:40.693Z",
               "EditorCaption": ""
             }
           ]

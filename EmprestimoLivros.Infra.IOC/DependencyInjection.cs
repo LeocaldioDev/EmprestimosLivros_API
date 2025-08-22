@@ -26,7 +26,7 @@ namespace EmprestimoLivros.Infra.IOC
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly(typeof(ApplicationDBContext).Assembly.FullName));
             });
-            //services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
 
             //repositories

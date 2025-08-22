@@ -1,6 +1,7 @@
 ﻿using EmprestimoLivros.Domain.Entities;
 using EmprestimoLivros.Domain.Interfaces;
 using EmprestimoLivros.Infra.Data.Context;
+using EmprestimoLivros.Infra.Data.Migrations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace EmprestimoLivros.Infra.Data.Repository
     public class ClienteRepository : IClienteRepository
     {
 
+
+        
 
         public Task<Cliente> Alterar(Cliente cliente)
         {
