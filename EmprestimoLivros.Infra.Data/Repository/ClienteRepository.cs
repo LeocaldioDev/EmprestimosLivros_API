@@ -22,29 +22,42 @@ namespace EmprestimoLivros.Infra.Data.Repository
 
         
 
-        public Task<Cliente> Alterar(Cliente cliente)
+        public async Task<Cliente> Alterar(Cliente cliente)
         {
-            throw new NotImplementedException();
+            _dbContext.Cliente.Update(cliente);
+            await _dbContext.SaveChangesAsync(); 
+
+            return cliente;
         }
 
-        public Task<Cliente> Excluir(int id)
+        public async Task<Cliente> Excluir(int id)
         {
-            throw new NotImplementedException();
+           Cliente cliente = _dbContext.Cliente.Find(id);
+            await _dbContext.SaveChangesAsync();
+
+            return cliente;
         }
 
-        public Task<Cliente> Incluir(Cliente cliente)
+        public async Task<Cliente> Incluir(Cliente cliente)
         {
-            throw new NotImplementedException();
+            await _dbContext.Cliente.AddAsync(cliente); 
+            await _dbContext.SaveChangesAsync();        
+            return cliente;
         }
 
-        public Task<Cliente> SelecionarAsync(int id)
+        public async Task<Cliente> SelecionarAsync(int id)
         {
-            throw new NotImplementedException();
+            var cliente = await _dbContext.Cliente.FindAsync(id);
+
+            return cliente;
         }
 
-        public Task<IEnumerable<Cliente>> SelecionarTodosAsync()
+        public async Task<IEnumerable<Cliente>> SelecionarTodosAsync()
         {
-            throw new NotImplementedException();
+            var clientes = await _dbContext.Cliente.ToListAsync();
+            
+           
+            return clientes;
         }
     }
 }
