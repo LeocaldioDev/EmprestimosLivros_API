@@ -2,6 +2,7 @@
 using EmprestimoLivros.Domain.Interfaces;
 using EmprestimoLivros.Infra.Data.Context;
 using EmprestimoLivros.Infra.Data.Migrations;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,12 @@ namespace EmprestimoLivros.Infra.Data.Repository
 {
     public class ClienteRepository : IClienteRepository
     {
+                private ApplicationDBContext _dbContext;
 
+        public ClienteRepository(ApplicationDBContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         
 
