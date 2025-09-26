@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj": {}
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj": {
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj",
         "projectName": "EmprestimoLivros.API",
-        "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj",
+        "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\EmprestimoLivros.API.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.API\\obj\\",
+        "outputPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,18 +78,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj",
         "projectName": "EmprestimoLivros.Application",
-        "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj",
+        "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\obj\\",
+        "outputPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj"
               }
             }
           }
@@ -126,7 +130,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[10.1.1, )"
             }
           },
           "imports": [
@@ -145,18 +149,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj",
         "projectName": "EmprestimoLivros.Domain",
-        "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj",
+        "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\obj\\",
+        "outputPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,18 +210,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj": {
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj",
         "projectName": "EmprestimoLivros.Infra.Data",
-        "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,8 +239,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj"
               }
             }
           }
@@ -289,18 +293,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj": {
+    "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj",
         "projectName": "EmprestimoLivros.Infra.IOC",
-        "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj",
+        "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\EmprestimoLivros.Infra.IOC.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.IOC\\obj\\",
+        "outputPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -318,14 +322,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\EmprestimoLivros.Application.csproj"
               },
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\EmprestimoLivros.Domain.csproj"
               },
-              "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\hp\\EmprestimoLivros\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj"
+              "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\EmprestimoLivros.Infra.Data.csproj"
               }
             }
           }
@@ -378,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

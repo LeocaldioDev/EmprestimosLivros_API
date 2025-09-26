@@ -45,14 +45,14 @@ namespace EmprestimoLivros.Domain.Entities
             string bairro, string numero, string telefone, string telefoneFixo)
         {
 
-            DomainExceptionValidation.when(bi.Length != 25, "o BI precisa de ter 25 caracteres!");
-            DomainExceptionValidation.when(nome.Length > 100, "O nome precisa de no maximo 100 caracteres!");
-            DomainExceptionValidation.when(endereco.Length > 100, "O endere;o precisa de no maximo 50 caracteres!");
-            DomainExceptionValidation.when(cidade.Length > 100, "A Cidade precisa de no maximo 50 caracteres!");
-            DomainExceptionValidation.when(bairro.Length > 50, "O Bairro precisa de no maximo 50 caracteres!");
-            DomainExceptionValidation.when(numero.Length > 50, "O Numero precisa de no maximo 50 caracteres!");
-            DomainExceptionValidation.when(telefone.Length > 50, "O Telefone precisa de no maximo 50 caracteres!");
-            DomainExceptionValidation.when(telefoneFixo.Length > 50, "O Telefone Fixo precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(bi.Length < 5 || bi.Length > 25, "O BI precisa ter entre 5 e 25 caracteres!");
+           DomainExceptionValidation.when( nome.Length < 5 || nome.Length > 100, "O nome precisa de no maximo 100 caracteres!");
+           DomainExceptionValidation.when(endereco.Length < 5 || endereco.Length > 100, "O endere;o precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(cidade.Length < 5 || cidade.Length > 100, "A Cidade precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(bairro.Length < 5 || bairro.Length > 50, "O Bairro precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(numero.Length < 5 || numero.Length > 50, "O Numero precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(telefone.Length < 5 || telefone.Length > 50, "O Telefone precisa de no maximo 50 caracteres!");
+           DomainExceptionValidation.when(telefoneFixo.Length < 5 || telefoneFixo.Length > 50, "O Telefone Fixo precisa de no maximo 50 caracteres!");
             
 
             this.bi = bi;
