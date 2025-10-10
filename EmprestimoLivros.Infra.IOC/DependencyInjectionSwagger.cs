@@ -16,7 +16,7 @@ namespace EmprestimoLivros.Infra.IOC
         {
             services.AddSwaggerGen(c => 
             { 
-                c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                    Name = "Authorization",
                     Type = SecuritySchemeType.ApiKey,

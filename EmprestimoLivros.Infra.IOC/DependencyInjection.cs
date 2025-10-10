@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace EmprestimoLivros.Infra.IOC
 {
@@ -26,7 +28,39 @@ namespace EmprestimoLivros.Infra.IOC
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly(typeof(ApplicationDBContext).Assembly.FullName));
             });
+
+            services.AddAuthentication(opt =>
+            {
+
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+
+            }
+
+            ).AddJwtBearer(
+                options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = configuration["Jwt:Issuer"],
+                        ValidAudience = configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(configuration["Jwt:secretKey"])),
+                        ClockSkew = TimeSpan.Zero
+                    };
+
+
+                });
+
+            //AutoMapper
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+
 
 
             //repositories
@@ -35,7 +69,7 @@ namespace EmprestimoLivros.Infra.IOC
             //Services
             services.AddScoped<ICLienteServices, ClienteServices>();
 
-
+            
 
 
             return services;
