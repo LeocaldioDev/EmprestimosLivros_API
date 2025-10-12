@@ -1,5 +1,6 @@
 ﻿using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmprestimoLivros.API.Controllers
@@ -16,6 +17,7 @@ namespace EmprestimoLivros.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult> Incluir( ClienteDTOs clienteDTO)
         {
             var clienteDTOIncluido = await _clienteServices.Incluir(clienteDTO);

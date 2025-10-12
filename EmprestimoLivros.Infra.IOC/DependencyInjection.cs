@@ -14,6 +14,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using EmprestimoLivros.Domain.Account;
+using EmprestimoLivros.Infra.Data.Identity;
 
 namespace EmprestimoLivros.Infra.IOC
 {
@@ -48,6 +50,7 @@ namespace EmprestimoLivros.Infra.IOC
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
+
                         ValidIssuer = configuration["Jwt:Issuer"],
                         ValidAudience = configuration["Jwt:Audience"],
                         IssuerSigningKey = new SymmetricSecurityKey(
@@ -59,17 +62,20 @@ namespace EmprestimoLivros.Infra.IOC
                 });
 
             //AutoMapper
-            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 
             //repositories
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IClienteRepository,ClienteRepository>();
+            
 
             //Services
             services.AddScoped<ICLienteServices, ClienteServices>();
+            services.AddScoped<IUsuarioServices, UsuarioServices>();
+            services.AddScoped<IAuthenticate, AuthenticateServices>();
 
-            
 
 
             return services;

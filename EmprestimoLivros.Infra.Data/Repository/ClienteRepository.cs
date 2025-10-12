@@ -33,6 +33,7 @@ namespace EmprestimoLivros.Infra.Data.Repository
         public async Task<Cliente> Excluir(int id)
         {
            Cliente cliente = _dbContext.Cliente.Find(id);
+             _dbContext.Cliente.Remove(cliente);
             await _dbContext.SaveChangesAsync();
 
             return cliente;

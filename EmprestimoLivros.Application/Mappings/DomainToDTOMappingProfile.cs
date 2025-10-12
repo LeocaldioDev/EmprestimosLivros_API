@@ -14,6 +14,9 @@ namespace EmprestimoLivros.Application.Mappings
         public DomainToDTOMappingProfile()
         {
             CreateMap<Cliente, ClienteDTOs>().ReverseMap();
+            CreateMap<Usuario, UsuarioDTOs>().ReverseMap();
+
+
         }
     }
 }
