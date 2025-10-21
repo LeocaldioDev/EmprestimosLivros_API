@@ -34,21 +34,18 @@ namespace EmprestimoLivros.Infra.Data.Identity
                 return false;
             using var hmac = new HMACSHA512(usuario.passwordSalt);
             var ComputerHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(senha));
-            // CÓDIGO SEGURO (CONSTANT-TIME)
-            int mismatches = 0; // 1. Variável para ACUMULAR as diferenças.
+
+            int mismatches = 0;
 
             for (int i = 0; i < ComputerHash.Length; i++)
             {
-                // O loop forçará a comparação de CADA byte, do primeiro ao último.
 
                 if (ComputerHash[i] != usuario.passwordHash[i])
                 {
-                    mismatches++; // 2. Se houver uma diferença, incrementamos o contador.
+                    mismatches++; 
                 }
             }
-
-            // 3. A decisão final (true ou false) é feita SÓ AQUI, depois de todo o tempo de processamento.
-            return mismatches == 0; // Se o contador for zero, os hashes coincidem.
+            return mismatches == 0;
 
         }
 

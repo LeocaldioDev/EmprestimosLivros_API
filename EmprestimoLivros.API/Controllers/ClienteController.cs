@@ -1,5 +1,6 @@
 ﻿using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Application.Interfaces;
+using EmprestimoLivros.Infra.IOC;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,17 +8,20 @@ namespace EmprestimoLivros.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ClienteController: ControllerBase
     {
         private readonly ICLienteServices _clienteServices;
+        private readonly IUsuarioServices _usuarioServices;
 
-        public ClienteController(ICLienteServices cLienteServices)
+        public ClienteController(ICLienteServices cLienteServices, IUsuarioServices usuarioServices)
         {
             _clienteServices = cLienteServices;
+            _usuarioServices = usuarioServices;
         }
 
         [HttpPost]
-        [Authorize]
+        
         public async Task<ActionResult> Incluir( ClienteDTOs clienteDTO)
         {
             var clienteDTOIncluido = await _clienteServices.Incluir(clienteDTO);
@@ -25,6 +29,7 @@ namespace EmprestimoLivros.API.Controllers
             {
                 return BadRequest("Ocorreu um erro ao incluir o cliente");
             }
+            
             return Ok("Cliente incluido com sucesso!");
         }
 
@@ -44,6 +49,12 @@ namespace EmprestimoLivros.API.Controllers
         [HttpDelete]
         public async Task<ActionResult> Excluir(int id)
         {
+            var userId = User.GetId();
+            var usuario = await _usuarioServices.SelecionarAsync(userId);
+            if (!usuario.isAdmin)
+            {
+                return Unauthorized("Apenas administradores podem excluir clientes");
+            }
             var clienteDTOExcluido = await _clienteServices.Excluir(id);
             if (clienteDTOExcluido == null)
             {

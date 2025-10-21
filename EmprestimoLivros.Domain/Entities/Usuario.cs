@@ -14,6 +14,7 @@ namespace EmprestimoLivros.Domain.Entities
         public string email { get; private set; }
         public byte[] passwordHash { get; private set; }
         public byte[] passwordSalt { get; private set; }
+        public bool isAdmin { get; private set; }
 
 
         public Usuario(int id, string nome, string email)
@@ -22,6 +23,11 @@ namespace EmprestimoLivros.Domain.Entities
 
             this.id = id;
            ValidateDomain(nome, email);
+        }
+
+        public void SetAdimin(bool isAdmin)
+        {
+            this.isAdmin = isAdmin;
         }
         public Usuario( string nome, string email)
         {
@@ -43,6 +49,7 @@ namespace EmprestimoLivros.Domain.Entities
 
             this.nome = nome;
             this.email = email;
+            this.isAdmin = false;
         }
     }
 }

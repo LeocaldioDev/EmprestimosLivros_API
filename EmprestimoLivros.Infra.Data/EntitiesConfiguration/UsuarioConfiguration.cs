@@ -16,8 +16,7 @@ namespace EmprestimoLivros.Infra.Data.EntitiesConfiguration
             builder.HasKey(u => u.id);
             builder.Property(u => u.nome).IsRequired().HasMaxLength(200);
             builder.Property(u => u.email).IsRequired().HasMaxLength(200);
-            builder.Property(u => u.passwordHash);
-            builder.Property(u => u.passwordSalt);
+            builder.Property(u => u.isAdmin).IsRequired();
 
         }
     }

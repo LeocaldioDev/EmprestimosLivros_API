@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace EmprestimoLivros.Application.DTOs
@@ -21,6 +22,8 @@ namespace EmprestimoLivros.Application.DTOs
         [MaxLength(200, ErrorMessage = "A senha deve ter no máximo 100 caracteres")]
         [NotMapped]
         public string password { get;  set; }
+        [JsonIgnore]
+        public bool isAdmin { get; set; }
 
 
 

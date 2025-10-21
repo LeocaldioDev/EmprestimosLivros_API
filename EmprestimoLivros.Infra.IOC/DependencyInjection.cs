@@ -62,19 +62,20 @@ namespace EmprestimoLivros.Infra.IOC
                 });
 
             //AutoMapper
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
 
             //repositories
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IClienteRepository,ClienteRepository>();
+            services.AddScoped<ILivroRepository,LivroRepository>();
             
 
             //Services
             services.AddScoped<ICLienteServices, ClienteServices>();
             services.AddScoped<IUsuarioServices, UsuarioServices>();
             services.AddScoped<IAuthenticate, AuthenticateServices>();
+            services.AddScoped<ILivroServices, LivroServices>();
 
 
 
