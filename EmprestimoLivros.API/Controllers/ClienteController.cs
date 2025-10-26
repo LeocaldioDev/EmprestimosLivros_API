@@ -1,4 +1,6 @@
-﻿using EmprestimoLivros.Application.DTOs;
+﻿using EmprestimoLivros.API.Extensions;
+using EmprestimoLivros.API.Models;
+using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Application.Interfaces;
 using EmprestimoLivros.Infra.IOC;
 using Microsoft.AspNetCore.Authorization;
@@ -76,10 +78,14 @@ namespace EmprestimoLivros.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> SelecionarTodos()
+        public async Task<ActionResult> SelecionarTodos([FromQuery]PaginationParams paginationParams)
         {
-            var clientesDTO = await _clienteServices.SelecionarTodosAsync();
-           
+            var clientesDTO = await _clienteServices.SelecionarTodosAsync
+                (paginationParams.PageNumber,paginationParams.PageSize);
+           Response.AddPaginationHeader(new PaginationHeader (clientesDTO.CurrentPage,
+               clientesDTO.Pagesize,clientesDTO.TotalCount,clientesDTO.TotalPages));
+
+
             return Ok(clientesDTO);
         }
 
