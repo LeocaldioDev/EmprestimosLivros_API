@@ -56,6 +56,11 @@ namespace EmprestimoLivros.Infra.Data.Repository
 
             return usuarios;
         }
+
+       public async Task<bool> ExisteUsuarioCadastradoAsync()
+        {
+            return await _dbContext.Usuario.AnyAsync();
+        }
     }
 }
 

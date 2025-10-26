@@ -8,7 +8,7 @@ namespace EmprestimoLivros.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+  [Authorize]
     public class ClienteController: ControllerBase
     {
         private readonly ICLienteServices _clienteServices;

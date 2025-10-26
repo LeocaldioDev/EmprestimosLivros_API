@@ -64,5 +64,10 @@ namespace EmprestimoLivros.Application.Services
             var usuarios  = await _usuarioRepository.SelecionarTodosAsync();
             return _mapper.Map<IEnumerable<UsuarioDTOs>>(usuarios);
         }
+
+        public async Task<bool> ExisteUsuarioCadastradoAsync()
+        {
+            return await _usuarioRepository.ExisteUsuarioCadastradoAsync();
+        }
     }
 }

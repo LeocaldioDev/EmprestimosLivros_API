@@ -9,7 +9,7 @@ namespace EmprestimoLivros.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+   [Authorize]
     public class LivroController : Controller
     {
         private readonly ILivroServices _livroServices;

@@ -3,6 +3,7 @@ using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Application.Interfaces;
 using EmprestimoLivros.Application.Services;
 using EmprestimoLivros.Domain.Account;
+using EmprestimoLivros.Infra.IOC;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.AspNetCore.Mvc;
@@ -34,6 +35,28 @@ namespace EmprestimoLivros.API.Controllers
             {
                 return BadRequest("este email, ja possui um cadastro");
             }
+
+            var existeUsuariocadastrado = await _usuarioServices.ExisteUsuarioCadastradoAsync();
+
+            if (!existeUsuariocadastrado)
+            {
+                usuarioDTO.isAdmin = true;
+            }
+            else
+            {
+                if (User.FindFirst("id") ==null)
+                {
+                    return Unauthorized("Acesso negado");
+                }
+
+                var usuarioId = User.GetId();
+                var usuarioLogado = await _usuarioServices.SelecionarAsync(usuarioId);
+                if (usuarioLogado == null || !usuarioLogado.isAdmin)
+                {
+                    return Unauthorized("Voce não tem permissão para incluir novos usuarios");
+                }
+            }
+
             var usuario = await _usuarioServices.Incluir(usuarioDTO);
             if(usuario == null)
             {

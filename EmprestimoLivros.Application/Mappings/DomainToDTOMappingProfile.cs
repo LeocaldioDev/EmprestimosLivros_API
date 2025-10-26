@@ -16,6 +16,11 @@ namespace EmprestimoLivros.Application.Mappings
             CreateMap<Cliente, ClienteDTOs>().ReverseMap();
             CreateMap<Usuario, UsuarioDTOs>().ReverseMap();
             CreateMap<Livro, LivroDTOs>().ReverseMap();
+            CreateMap<LivroCLienteEmprestimo, EmprestimoDTOs>()
+                .ForMember(dest => dest.ClienteDTO, opt =>opt.MapFrom(x=>x.Cliente))
+                .ForMember(dest =>dest.LivroDTO, opt =>opt.MapFrom(x=>x.Livro)).ReverseMap();
+            CreateMap<LivroCLienteEmprestimo, EmprestimoPostDTOs>().ReverseMap();
+
 
 
         }

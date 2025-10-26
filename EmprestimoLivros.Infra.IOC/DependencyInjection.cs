@@ -69,6 +69,7 @@ namespace EmprestimoLivros.Infra.IOC
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IClienteRepository,ClienteRepository>();
             services.AddScoped<ILivroRepository,LivroRepository>();
+            services.AddScoped<IEmprestimoRepository,EmprestimoRepository>();
             
 
             //Services
@@ -76,6 +77,7 @@ namespace EmprestimoLivros.Infra.IOC
             services.AddScoped<IUsuarioServices, UsuarioServices>();
             services.AddScoped<IAuthenticate, AuthenticateServices>();
             services.AddScoped<ILivroServices, LivroServices>();
+            services.AddScoped<IEmprestimoServices, EmprestimoServices>();
 
 
 
