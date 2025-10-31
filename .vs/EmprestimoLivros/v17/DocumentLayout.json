@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|solutionrelative:emprestimolivros.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|c:\\users\\hp\\emprestimoslivros_api\\emprestimolivros.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|solutionrelative:emprestimolivros.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|c:\\users\\hp\\emprestimoslivros_api\\emprestimolivros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1FB6BDE-4805-490C-8D25-4FD8E9C45555}|EmprestimoLivros.API\\EmprestimoLivros.API.csproj|solutionrelative:emprestimolivros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -132,30 +128,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EmprestimoLivros.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EmprestimoLivros.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAABgZmZmZmYkwBwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-31T16:19:50.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Program.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Program.cs",
               "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Program.cs",
               "RelativeToolTip": "EmprestimoLivros.API\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T16:18:04.685Z"
+              "WhenOpened": "2025-10-31T16:18:04.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Middleware\\ExceptionMiddleware.cs",
@@ -167,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ApiException.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Errors\\ApiException.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Errors\\ApiException.cs",
@@ -179,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IAuthenticate.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\Account\\IAuthenticate.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Domain\\Account\\IAuthenticate.cs",
@@ -191,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DomainExceptionValidation.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\Validation\\DomainExceptionValidation.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Domain\\Validation\\DomainExceptionValidation.cs",
@@ -203,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Controllers\\ClienteController.cs",
@@ -215,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EmprestimoController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Controllers\\EmprestimoController.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Controllers\\EmprestimoController.cs",
@@ -227,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ILivroServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\ILivroServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Interfaces\\ILivroServices.cs",
@@ -239,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
@@ -251,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "LivroServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\LivroServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\LivroServices.cs",
@@ -263,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "EmprestimoServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\EmprestimoServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\EmprestimoServices.cs",
@@ -275,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "EmprestimoRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\Repository\\EmprestimoRepository.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Repository\\EmprestimoRepository.cs",
@@ -287,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "LivroRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\Repository\\LivroRepository.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Repository\\LivroRepository.cs",
@@ -299,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "ILivroRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\Interfaces\\ILivroRepository.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Domain\\Interfaces\\ILivroRepository.cs",
@@ -311,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Domain\\Pagination\\PagedList.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Domain\\Pagination\\PagedList.cs",
@@ -323,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "PaginationHeader.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Models\\PaginationHeader.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Models\\PaginationHeader.cs",
@@ -335,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ClienteServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\ClienteServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\ClienteServices.cs",
@@ -347,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "PaginationParams.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Models\\PaginationParams.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Models\\PaginationParams.cs",
@@ -359,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ICLienteServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
@@ -371,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\Repository\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Repository\\UsuarioRepository.cs",
@@ -383,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "UsuarioServices.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
@@ -395,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "EmprestimoPostDTOs.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\DTOs\\EmprestimoPostDTOs.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\DTOs\\EmprestimoPostDTOs.cs",
