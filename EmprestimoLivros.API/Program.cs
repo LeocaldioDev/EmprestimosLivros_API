@@ -1,3 +1,4 @@
+using EmprestimoLivros.API.Middleware;
 using EmprestimoLivros.Infra.IOC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 

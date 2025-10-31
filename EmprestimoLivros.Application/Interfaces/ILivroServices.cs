@@ -1,4 +1,5 @@
 ﻿using EmprestimoLivros.Application.DTOs;
+using EmprestimoLivros.Domain.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace EmprestimoLivros.Application.Interfaces
         Task<LivroDTOs> Alterar(LivroDTOs livroDTO);
         Task<LivroDTOs> Excluir(int id);
         Task<LivroDTOs> SelecionarAsync(int id);
-        Task<IEnumerable<LivroDTOs>> SelecionarTodosAsync();
+        Task<PagedList<LivroDTOs>> SelecionarTodosAsync(int PageNumber, int PageSize);
     }
 }

@@ -1,6 +1,8 @@
 ﻿using EmprestimoLivros.Domain.Entities;
 using EmprestimoLivros.Domain.Interfaces;
+using EmprestimoLivros.Domain.Pagination;
 using EmprestimoLivros.Infra.Data.Context;
+using EmprestimoLivros.Infra.Data.Helpes;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -52,12 +54,11 @@ namespace EmprestimoLivros.Infra.Data.Repository
             return emprestimo;
         }
 
-        public async Task<IEnumerable<LivroCLienteEmprestimo>> SelecionarTodosAsync()
+        public async Task<PagedList<LivroCLienteEmprestimo>> SelecionarTodosAsync(int pageNumber, int pageSize)
         {
-            var emprestimos = await _dbContext.Emprestimo.Include(x=>x.Livro).Include(x => x.Cliente).ToListAsync();
+            var query = _dbContext.Emprestimo.Include(x =>x.Livro).Include(x=>x.Cliente).AsQueryable();
+            return await PaginationHelper.CreateAsync<LivroCLienteEmprestimo>(query, pageNumber, pageSize);
 
-
-            return emprestimos;
         }
 
         public async Task<bool> VerificarDisponiblidadeAsync(int idLivro)
