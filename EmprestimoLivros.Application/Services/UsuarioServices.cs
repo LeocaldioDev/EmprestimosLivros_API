@@ -3,6 +3,7 @@ using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Application.Interfaces;
 using EmprestimoLivros.Domain.Entities;
 using EmprestimoLivros.Domain.Interfaces;
+using EmprestimoLivros.Domain.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,11 +23,21 @@ namespace EmprestimoLivros.Application.Services
             _usuarioRepository = usuarioRepository;
             _mapper = mapper;
         }
-        public async Task<UsuarioDTOs> Alterar(UsuarioDTOs usuarioDTO)
+        public async Task<UsuarioPutDTO> Alterar(UsuarioPutDTO usuarioPutDTO)
         {
-            var usuario = _mapper.Map<Usuario>(usuarioDTO);
+            var usuario = _mapper.Map<Usuario>(usuarioPutDTO);
+
+            if (usuarioPutDTO.password != null)
+            {
+                using var hmac = new HMACSHA512();
+                byte[] passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(usuarioPutDTO.password));
+                byte[] passwordSalt = hmac.Key;
+
+                usuario.AlterarSenha(passwordHash, passwordSalt);
+
+            }
             var usuarioAlterado = await _usuarioRepository.Alterar(usuario);
-            return _mapper.Map<UsuarioDTOs>(usuarioAlterado);
+            return _mapper.Map<UsuarioPutDTO>(usuarioAlterado);
         }
 
         public async Task<UsuarioDTOs> Excluir(int id)
@@ -59,10 +70,11 @@ namespace EmprestimoLivros.Application.Services
             return _mapper.Map<UsuarioDTOs>(usuario);
         }
 
-        public async Task<IEnumerable<UsuarioDTOs>> SelecionarTodosAsync()
+        public async Task<PagedList<UsuarioDTOs>> SelecionarTodosAsync(int pageNumber, int pageSize)
         {
-            var usuarios  = await _usuarioRepository.SelecionarTodosAsync();
-            return _mapper.Map<IEnumerable<UsuarioDTOs>>(usuarios);
+            var usuarios  = await _usuarioRepository.SelecionarTodosAsync(pageNumber,pageSize);
+            var ulientesDTOs= _mapper.Map<IEnumerable<UsuarioDTOs>>(usuarios);
+            return new PagedList<UsuarioDTOs>(ulientesDTOs, pageNumber, pageSize, usuarios.TotalCount);
         }
 
         public async Task<bool> ExisteUsuarioCadastradoAsync()

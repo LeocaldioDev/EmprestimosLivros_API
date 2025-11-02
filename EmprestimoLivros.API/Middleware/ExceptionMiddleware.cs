@@ -35,7 +35,7 @@ namespace EmprestimoLivros.API.Middleware
               context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
                 var response = _env.IsDevelopment() ?
-                    new ApiException(context.Response.StatusCode.ToString(), ex.Message, ex.StackTrace.ToString()) :
+                    new ApiException(context.Response.StatusCode.ToString(), ex.Message, ex.StackTrace.ToString()):
                     new ApiException(context.Response.StatusCode.ToString(), ex.Message, "Internal Server Error");
 
                 var options = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };

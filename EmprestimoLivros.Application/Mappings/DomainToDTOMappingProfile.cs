@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EmprestimoLivros.Application.DTOs;
 using EmprestimoLivros.Domain.Entities;
+using EmprestimoLivros.Domain.SystemModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace EmprestimoLivros.Application.Mappings
                 .ForMember(dest => dest.ClienteDTO, opt =>opt.MapFrom(x=>x.Cliente))
                 .ForMember(dest =>dest.LivroDTO, opt =>opt.MapFrom(x=>x.Livro)).ReverseMap();
             CreateMap<LivroCLienteEmprestimo, EmprestimoPostDTOs>().ReverseMap();
+            CreateMap<QuantidadeItens, QuantidadeItensDTO>().ReverseMap();
+            CreateMap<Usuario, UsuarioPutDTO>().ReverseMap();
 
 
 
