@@ -23,16 +23,32 @@ namespace EmprestimoLivros.Infra.Data.Repository
 
         public async Task<Usuario> Alterar(Usuario usuario)
         {
+
+            var local = _dbContext.Usuario.Local.FirstOrDefault(x => x.id == usuario.id);
+            if (local != null)
+            {
+
+                _dbContext.Entry(local).State = EntityState.Detached;
+            }
+
             if (usuario.passwordSalt == null || usuario.passwordHash == null)
             {
-                var passwordCripgrafado = await _dbContext.Usuario.Where(x => x.id == usuario.id).Select(x => new { x.passwordHash, x.passwordSalt }).FirstOrDefaultAsync();
+                var passwordCripgrafado = await _dbContext.Usuario
+                    .AsNoTracking()
+                    .Where(x => x.id == usuario.id)
+                    .Select(x => new { x.passwordHash, x.passwordSalt })
+                    .FirstOrDefaultAsync();
+
                 usuario.AlterarSenha(passwordCripgrafado.passwordHash, passwordCripgrafado.passwordSalt);
             }
 
             _dbContext.Usuario.Update(usuario);
             await _dbContext.SaveChangesAsync();
+
             return usuario;
         }
+
+
 
         public async Task<Usuario> Excluir(int id)
         {

@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,39 +162,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioServices.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
-              "RelativeToolTip": "EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T12:46:39.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUsuarioServices.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
-              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
-              "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
-              "RelativeToolTip": "EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T18:19:29.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "EmprestimoLivros.API\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAL4AAAAAMDMzMzMDwNAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAUwNUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T11:34:34.311Z",
               "EditorCaption": ""
@@ -209,8 +183,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\Mappings\\DomainToDTOMappingProfile.cs",
               "ViewState": "AgIAAAYAAABgZmZmZmYkwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T20:22:46.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T20:22:46.151Z"
             },
             {
               "$type": "Document",
@@ -220,7 +193,7 @@
               "RelativeDocumentMoniker": "EmprestimoLivros.Infra.Data\\Repository\\UsuarioRepository.cs",
               "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Infra.Data\\Repository\\UsuarioRepository.cs",
               "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAABIAAACwzMzMzMw7wDgAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvxwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T21:44:56.905Z",
               "EditorCaption": ""
@@ -233,10 +206,35 @@
               "RelativeDocumentMoniker": "EmprestimoLivros.Application\\DTOs\\UsuarioPutDTO.cs",
               "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\DTOs\\UsuarioPutDTO.cs",
               "RelativeToolTip": "EmprestimoLivros.Application\\DTOs\\UsuarioPutDTO.cs",
-              "ViewState": "AgIAABMAAAAwMzMzMzMywBkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAZmZmZmYGwAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T22:18:49.186Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\Services\\UsuarioServices.cs",
+              "ViewState": "AgIAABYAAAAAZmZmZmb2v0YAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T12:46:39.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
+              "RelativeDocumentMoniker": "EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
+              "ToolTip": "C:\\Users\\hp\\EmprestimosLivros_API\\EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
+              "RelativeToolTip": "EmprestimoLivros.Application\\Interfaces\\IUsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:19:29.04Z"
             },
             {
               "$type": "Document",
@@ -248,8 +246,7 @@
               "RelativeToolTip": "EmprestimoLivros.Domain\\Entities\\Usuario.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T21:45:52.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T21:45:52.873Z"
             },
             {
               "$type": "Document",
@@ -261,8 +258,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\Interfaces\\ISistemaServices.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:37:53.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T19:37:53.081Z"
             },
             {
               "$type": "Document",
@@ -274,8 +270,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\DTOs\\UsuarioDTOs.cs",
               "ViewState": "AgIAAAsAAAAwMzMzMzM7wBYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T21:51:27.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T21:51:27.816Z"
             },
             {
               "$type": "Document",
@@ -287,8 +282,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\DTOs\\EmprestimoPutDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T22:17:18.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T22:17:18.822Z"
             },
             {
               "$type": "Document",
@@ -300,8 +294,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\DTOs\\EmprestimoPostDTOs.cs",
               "ViewState": "AgIAAAgAAABAZmZmZmYkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T13:21:15.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T13:21:15.847Z"
             },
             {
               "$type": "Document",
@@ -313,8 +306,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\Services\\SistemaServices.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAuwAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:37:21.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T19:37:21.649Z"
             },
             {
               "$type": "Document",
@@ -326,8 +318,7 @@
               "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Repository\\ClienteRepository.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAADQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T18:25:49.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T18:25:49.833Z"
             },
             {
               "$type": "Document",
@@ -339,8 +330,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Controllers\\SistemaController.cs",
               "ViewState": "AgIAABMAAABAMzMzMzMbwBwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:28:38.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T19:28:38.186Z"
             },
             {
               "$type": "Document",
@@ -352,8 +342,7 @@
               "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Repository\\SistemaRepository.cs",
               "ViewState": "AgIAAAoAAAAAZmZmZmb2vxIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:40:38.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T19:40:38.635Z"
             },
             {
               "$type": "Document",
@@ -365,8 +354,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\Services\\ClienteServices.cs",
               "ViewState": "AgIAACUAAADgzMzMzMw8wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T20:43:52.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T20:43:52.207Z"
             },
             {
               "$type": "Document",
@@ -378,8 +366,7 @@
               "RelativeToolTip": "EmprestimoLivros.Domain\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T18:19:50.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T18:19:50.976Z"
             },
             {
               "$type": "Document",
@@ -391,8 +378,7 @@
               "RelativeToolTip": "EmprestimoLivros.Domain\\Interfaces\\ISistemaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:41:19.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T19:41:19.178Z"
             },
             {
               "$type": "Document",
@@ -404,8 +390,7 @@
               "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Repository\\EmprestimoRepository.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T20:24:49.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T20:24:49.979Z"
             },
             {
               "$type": "Document",
@@ -417,8 +402,7 @@
               "RelativeToolTip": "EmprestimoLivros.Infra.IOC\\DependencyInjection.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T20:13:36.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T20:13:36.826Z"
             },
             {
               "$type": "Document",
@@ -430,8 +414,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Controllers\\LivroController.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T18:34:10.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T18:34:10.74Z"
             },
             {
               "$type": "Document",
@@ -443,8 +426,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Models\\PaginationParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:34:20.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:34:20.623Z"
             },
             {
               "$type": "Document",
@@ -456,8 +438,7 @@
               "RelativeToolTip": "EmprestimoLivros.Infra.Data\\Helpes\\PaginationHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T18:22:00.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T18:22:00.804Z"
             },
             {
               "$type": "Document",
@@ -469,8 +450,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Models\\PaginationHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T00:00:27.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T00:00:27.486Z"
             },
             {
               "$type": "Document",
@@ -482,8 +462,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Errors\\ApiException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:46:51.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:46:51.057Z"
             },
             {
               "$type": "Document",
@@ -495,8 +474,7 @@
               "RelativeToolTip": "EmprestimoLivros.Application\\Interfaces\\ICLienteServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:25:30.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:25:30.985Z"
             },
             {
               "$type": "Document",
@@ -508,8 +486,7 @@
               "RelativeToolTip": "EmprestimoLivros.Domain\\Validation\\DomainExceptionValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:28:18.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:28:18.762Z"
             },
             {
               "$type": "Document",
@@ -521,8 +498,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Models\\UserToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T17:51:01.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T17:51:01.774Z"
             },
             {
               "$type": "Document",
@@ -534,8 +510,7 @@
               "RelativeToolTip": "EmprestimoLivros.API\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAgAAABgZmZmZmYmwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T15:49:12.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T15:49:12.849Z"
             },
             {
               "$type": "Document",
