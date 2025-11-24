@@ -58,8 +58,7 @@ namespace EmprestimoLivros.Infra.Data.Identity
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
-            var Privatekey = new SymmetricSecurityKey(Encoding.UTF8.
-                GetBytes(_configuration["Jwt:secretKey"]));
+            var Privatekey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:secretKey"]));
             var credentials = new SigningCredentials(Privatekey, SecurityAlgorithms.HmacSha256);
 
             var expiration = DateTime.Now.AddMinutes(10);
